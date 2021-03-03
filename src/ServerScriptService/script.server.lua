@@ -1,4 +1,4 @@
-local HoloService = require(game.ReplicatedStorage.Modules.HoloService)
+local HoloService = require(game:GetService("ReplicatedStorage").Modules.HoloService)
 local Players = game:GetService('Players')
 HoloService:init()
 local function PlayerJoined(Player)
